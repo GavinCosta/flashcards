@@ -160,13 +160,16 @@ export async function createCard(deckId, card, signal) {
   // There is a bug in json-server, if you post to /decks/:deckId/cards the associated deckId is a string
   // and the card is not related to the deck because the data types of the ID's are different.
   const url = `${API_BASE_URL}/cards`;
+  console.log('url', url)
   card.deckId = Number(deckId);
+  console.log('card.deckId', card.deckId)
   const options = {
     method: "POST",
     headers,
     body: JSON.stringify(card),
     signal,
   };
+  console.log('options', options)
   return await fetchJson(url, options, card);
 }
 
