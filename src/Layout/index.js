@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import NotFound from "./NotFound";
 import CreateDeck from "./Deck/CreateDeck";
-import { Route, Switch, useRouteMatch, useParams } from "react-router-dom";
+import { Route, Switch, } from "react-router-dom";
 import DeckView from "./Deck/DeckView";
 import Study from "./Deck/Study/Study";
 import EditDeck from "./Deck/EditDeck"
@@ -11,8 +11,7 @@ import AddCard from "./Cards/AddCard"
 import Home from "./Home";
 
 function Layout() {
-  const { deckId } = useParams()
-  const { url } = useRouteMatch()
+
   return (
     <React.Fragment>
       <Header />

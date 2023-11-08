@@ -1,35 +1,22 @@
 {
   "decks": [
     {
-      "id": 1,
-      "name": "Rendering in React",
-      "description": "Food"
-    },
-    {
       "name": "React Router",
       "description": "React Router is a collection of navigational components that compose declaratively with your application.",
       "id": 2
+    },
+    {
+      "name": "cvxcv",
+      "description": "cv",
+      "id": 3
+    },
+    {
+      "name": "dfd",
+      "description": "ko",
+      "id": 4
     }
   ],
   "cards": [
-    {
-      "id": 1,
-      "front": "Differentiate between Real DOM and Virtual DOM.",
-      "back": "Virtual DOM updates are faster but do not directly update the HTML",
-      "deckId": 1
-    },
-    {
-      "id": 2,
-      "front": "How do you modify the state of a different React component?",
-      "back": "Not at all! State is visible to the component only.",
-      "deckId": 1
-    },
-    {
-      "id": 3,
-      "front": "How do you pass data 'down' to a React child component?",
-      "back": "As properties or props",
-      "deckId": 1
-    },
     {
       "front": "What path will match the follow Route?\n<Route>\n  <NotFound />\n</Route>",
       "back": "All paths. A route with no path matches all URL's",
@@ -43,23 +30,46 @@
       "id": 5
     },
     {
-      "cards": [],
-      "front": "b",
-      "back": "b",
-      "deckId": 1,
+      "front": "xccc",
+      "back": "sdcs",
+      "deckId": 3,
+      "id": 6
+    },
+    {
+      "front": "ds",
+      "back": "fd",
+      "deckId": 3,
       "id": 7
     },
     {
-      "front": "Spaghet",
-      "back": "Tiii",
-      "deckId": 1,
+      "front": "dsdsd",
+      "back": "dsd",
+      "deckId": 3,
       "id": 8
     },
     {
-      "front": "Hit me",
-      "back": "baby6 one more tim",
-      "deckId": 1,
+      "front": "fdf",
+      "back": "hgh",
+      "deckId": 4,
       "id": 9
+    },
+    {
+      "front": "gfg",
+      "back": "gh",
+      "deckId": 4,
+      "id": 10
+    },
+    {
+      "front": "sf",
+      "back": "sfsdf",
+      "deckId": 4,
+      "id": 11
+    },
+    {
+      "front": "fdsf",
+      "back": "gfgg",
+      "deckId": 4,
+      "id": 12
     }
   ]
 }

@@ -63,8 +63,8 @@ function Study() {
           </li>
         </ol>
       </nav>
-      <h1>{deck.name}: Study</h1>
-      <div className="list-group-item list-group-item-action flex-column align-items-start">
+      
+    
         {/**if cardslength !== 0 then display nothing or loading and wait to populate page*/}
         {cards?.length < 3 ? (
           <>
@@ -83,29 +83,36 @@ function Study() {
           </>
         ) : (
           <>
-            <h2>
+           
+            {showFront ? (
+              <div>
+                <h1>Study: {deck.name}</h1>
+                <div className="list-group-item list-group-item-action flex-column align-items-start">
+                <h3>
               Card {index + 1} of {cards.length}
-            </h2>
-            {showFront ? (
-              <div>
+            </h3>
                 <p>{currentCardFront}</p>
+                <button  className="btn btn-secondary mx-2" onClick={flipHandle}>Flip</button>
+                </div>
               </div>
+                
             ) : (
               <div>
+                <h1>{deck.name}: Study </h1>  
+                <div className="list-group-item list-group-item-action flex-column align-items-start">
+                <h3>
+              Card {index + 1} of {cards.length}
+            </h3>
                 <p>{currentCardBack}</p>
+                  <button  className="btn btn-secondary mx-2" onClick={flipHandle}>Flip</button>
+                  <button  className="btn btn-primary mx-2" onClick={nextHandle}>Next</button>
+                  </div>
+                
               </div>
-            )}
-            {showFront ? (
-              <button  className="btn btn-secondary mx-2" onClick={flipHandle}>Flip</button>
-            ) : (
-              <>
-                <button  className="btn btn-secondary mx-2" onClick={flipHandle}>Flip</button>
-                <button  className="btn btn-primary mx-2" onClick={nextHandle}>Next</button>
-              </>
             )}
           </>
         )}
-      </div>
+      
     </>
   );
 }

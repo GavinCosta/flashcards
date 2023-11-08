@@ -17,7 +17,8 @@ function CardForm({
   function handleFormSubmit(event) {
     event.preventDefault();
     event.stopPropagation();
-    onSubmit(card);
+    onSubmit(card)
+    setCard(initialUseState);
   }
 
   function changeHandle(event) {
