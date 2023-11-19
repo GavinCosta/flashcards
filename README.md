@@ -35,8 +35,8 @@ Welcome to the Flashcards Application! I'm Gavin Michael Costa, the developer be
    - Add or remove flashcards to keep your content up-to-date.
 
 ## 📷 Screenshots
-![FlashcardsHomePreview](https://github.com/GavinCosta/flashcards/assets/143152149/5b6fac73-02f0-4130-96d9-715a00b65701)
-![FlashcardsDeckPreview](https://github.com/GavinCosta/flashcards/assets/143152149/5bf5b064-7aca-4526-92a0-1a6eb4ca9f70)
+![FlashcardsHomePreview](https://github.com/GavinCosta/flashcards/assets/143152149/5b6fac73-02f0-4130-96d9-715a00b65701)  ![FlashcardsDeckPreview](https://github.com/GavinCosta/flashcards/assets/143152149/5bf5b064-7aca-4526-92a0-1a6eb4ca9f70)
+
 
 
 
